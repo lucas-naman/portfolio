@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" style="box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);">
+    <span>Lucas Naman</span>
+    <span class="example-spacer"></span>
+    <button *ngIf="!isMobile" [routerLink]="['/']" mat-flat-button color="primary">About</button>
+    <button *ngIf="!isMobile" [routerLink]="['/experiences']" mat-flat-button color="primary">Experiences</button>
+    <button *ngIf="!isMobile" [routerLink]="['/projects']" mat-flat-button color="primary">Projects</button>
+    <button *ngIf="isMobile" [routerLink]="['/']" mat-icon-button class="example-icon"><mat-icon>account_circle</mat-icon></button>
+    <button *ngIf="isMobile" [routerLink]="['/experiences']" mat-icon-button class="example-icon"><mat-icon>article</mat-icon></button>
+    <button *ngIf="isMobile" [routerLink]="['/projects']"mat-icon-button class="example-icon"><mat-icon>work</mat-icon></button>
+  </mat-toolbar>
