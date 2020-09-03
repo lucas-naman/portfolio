@@ -1,0 +1,13 @@
+runtime: python27
+threadsafe: true
+
+skip_files:
+- ^(?!dist)
+
+handlers:
+  - url: /(.*\.[A-Za-z0-9]{1,4})$
+    static_files: dist/portfolio/\1
+    upload: dist/portfolio/(.*\.[A-Za-z0-9]{1,4})$
+  - url: /(.*)$
+    static_files: dist/portfolio/index.html
+    upload: dist/portfolio/index.html
