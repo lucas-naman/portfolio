@@ -22,9 +22,9 @@ interface job {
 export class ExperiencesComponent implements OnInit {
 
   jobs: Array<job> = [
-    {company: "CaptainData", logo: "assets/captain_logo.png", location: "Paris, France", start: "Sep. 2020", end: "Present", duration: "", tittle: "Software Engineer", desc: "desc", linkedin: "https://www.linkedin.com/company/captaindata", website: "https://www.captaindata.co"},
-    {company: "Alten SO", logo: "assets/alten_logo.png", location: "Toulouse, France", start: "Sep. 2018", end: "Aug. 2019", duration: "1 year", tittle: "Software Engineer", desc: "desc", linkedin: "https://www.linkedin.com/company/alten/", website: "https://www.alten.com"},
-    {company: "Novatim", logo: "assets/novatim_logo.png", location: "Paris, France", start: "Sep. 2017", end: "Dec. 2017", duration: "4 months", tittle: "Software Developer", desc: "desc", linkedin: "https://www.linkedin.com/company/novatim/", website: "https://www.novatim.com"},
+    {company: "CaptainData", logo: "assets/captain_logo.png", location: "Paris, France", start: "Sep. 2020", end: "Present", duration: "", tittle: "Software Engineer", desc: "Developing and refactoring features on a micro-services architecture using Flask, Node.js, Angular and Google Cloud Platform.", linkedin: "https://www.linkedin.com/company/captaindata", website: "https://www.captaindata.co"},
+    {company: "Alten SO", logo: "assets/alten_logo.png", location: "Toulouse, France", start: "Sep. 2018", end: "Aug. 2019", duration: "1 year", tittle: "Software Engineer Intern & Project Manager", desc: "Created and maintained a Node.js / Angular application to manage the facilities of the 3000 employees office.", linkedin: "https://www.linkedin.com/company/alten/", website: "https://www.alten.com"},
+    {company: "Novatim", logo: "assets/novatim_logo.png", location: "Paris, France", start: "Sep. 2017", end: "Dec. 2017", duration: "4 months", tittle: "Software Developer Intern", desc: "Developed new features of an inner application using Asp.Net.", linkedin: "https://www.linkedin.com/company/novatim/", website: "https://www.novatim.com"},
   ]
 
   constructor(private breakpointObserver: BreakpointObserver) { }
