@@ -1,1 +1,17 @@
-<p>projects works!</p>
+<mat-card *ngFor="let project of projects" class="example-card" [style.width.px]="size">
+    <mat-card-header>
+        <div mat-card-avatar [style.background-image]="'url('+ project.logo +')'" class="example-header-image"></div>
+        <mat-card-title>{{ project.name }}</mat-card-title>
+        <mat-card-subtitle>{{ project.sdesc }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="project.image">
+    <mat-card-content style="text-align: center;">
+        <!-- <h3>{{ project.tittle }}</h3>
+        <mat-card-subtitle>{{ project.start }} - {{ project.end }}</mat-card-subtitle> -->
+        <p>{{ project.desc }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <a mat-raised-button style="color: #3f51b5" [href]="project.repo" target="_blank">Source Code</a>
+        <a mat-raised-button color="primary" [href]="project.url" target="_blank">View</a>
+    </mat-card-actions>
+</mat-card>

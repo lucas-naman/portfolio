@@ -1,3 +1,4 @@
+rm -r ./dist
 ng build --prod --base-href https://lucasnaman.com
 mv dist/portfolio/* dist
 rm -r dist/portfolio
