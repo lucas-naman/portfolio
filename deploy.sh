@@ -1,3 +1,4 @@
+sudo npm install -g angular-cli-ghpages
 rm -r ./dist
 ng build --prod --base-href https://lucasnaman.com
 mv dist/portfolio/* dist
