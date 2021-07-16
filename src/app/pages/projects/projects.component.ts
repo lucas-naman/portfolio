@@ -19,9 +19,8 @@ interface project {
 export class ProjectsComponent implements OnInit {
 
   public projects:  Array<project> = [
-   {name: "Welon", sdesc: "Food waste reducer tool for restaurants", logo: "assets/welon_logo.png", image: "assets/welon_image.png", desc: "Worked with 7 people around the world to create Welon, a tool to help restaurants reduce their food waste using feedback from clients.", repo: "https://gitlab.com/eip_welon_2021/welon", url: "http://www.welon.fr"},
    {name: "Project H", sdesc: "Synchronise playlists on all platforms.", logo: "assets/project_h_logo.png", image: "assets/project_h_image.png", desc: "Synchronize and import your playlists from all the bigest music platform like Spotify, Youtube, Apple Music and more...", repo: "https://github.com/lucas-naman/ProjectH", url: "https://front-service-dot-project-h-283916.ew.r.appspot.com/login"},
-   {name: "L'Adresse Garage", sdesc: "One page web site for an old car garage", logo: "assets/ladresse-garage_logo.png", image: "assets/ladresse-garage_image.png", desc: "One page web site for an old car garage.", repo: "#", url: "https://www.ladresse-garage.fr"},
+   {name: "L'Adresse Garage", sdesc: "Showcase website for an old car garage", logo: "assets/ladresse-garage_logo.png", image: "assets/ladresse-garage_image.png", desc: "One page web site for an old car garage.", repo: "#", url: "https://www.ladresse-garage.fr"},
    {name: "Portfolio", sdesc: "This web site", logo: "assets/portfolio_logo.png", image: "assets/portfolio_image.png", desc: "Built my own portfolio using Angular and Angular Material", repo: "", url: "#"},
   ] 
 
