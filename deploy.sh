@@ -4,6 +4,5 @@ mv dist/portfolio/* dist
 rm -r dist/portfolio
 ngh -no-silent
 echo "Go to"
-echo "https://github.com/lucas-naman/portfolio/settings"
-echo "Check the \"GitHub Pages part\""
+echo "https://github.com/lucas-naman/portfolio/settings/pages"
 echo "Custom domain section: put \"lucasnaman.com\""
